@@ -13,17 +13,7 @@
 		4A5B506219E1B87900D91E27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B506119E1B87900D91E27 /* Images.xcassets */; };
 		4A5B506519E1B87900D91E27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B506319E1B87900D91E27 /* LaunchScreen.xib */; };
 		4A5B507119E1B87900D91E27 /* PizzaTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B507019E1B87900D91E27 /* PizzaTimeTests.swift */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		851C66EA19E1C387003496E7 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C66E919E1C387003496E7 /* ConfirmationViewController.swift */; };
-		851C66EC19E1C633003496E7 /* WhenIsItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C66EB19E1C633003496E7 /* WhenIsItViewController.swift */; };
-		851C66EE19E1C6E6003496E7 /* WhereIsItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C66ED19E1C6E6003496E7 /* WhereIsItViewController.swift */; };
-=======
 		4A5B507B19E1C3D800D91E27 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */; };
->>>>>>> FETCH_HEAD
-=======
-		4A5B507B19E1C3D800D91E27 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */; };
->>>>>>> FETCH_HEAD
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,17 +37,7 @@
 		4A5B506A19E1B87900D91E27 /* PizzaTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5B506F19E1B87900D91E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5B507019E1B87900D91E27 /* PizzaTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTimeTests.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		851C66E919E1C387003496E7 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
-		851C66EB19E1C633003496E7 /* WhenIsItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhenIsItViewController.swift; sourceTree = "<group>"; };
-		851C66ED19E1C6E6003496E7 /* WhereIsItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhereIsItViewController.swift; sourceTree = "<group>"; };
-=======
 		4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
->>>>>>> FETCH_HEAD
-=======
-		4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
->>>>>>> FETCH_HEAD
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,17 +82,7 @@
 				4A5B505A19E1B87900D91E27 /* AppDelegate.swift */,
 				4A5B505C19E1B87900D91E27 /* ViewController.swift */,
 				4A5B505E19E1B87900D91E27 /* Main.storyboard */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				851C66ED19E1C6E6003496E7 /* WhereIsItViewController.swift */,
-				851C66EB19E1C633003496E7 /* WhenIsItViewController.swift */,
-				851C66E919E1C387003496E7 /* ConfirmationViewController.swift */,
-=======
 				4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */,
->>>>>>> FETCH_HEAD
-=======
-				4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */,
->>>>>>> FETCH_HEAD
 				4A5B506119E1B87900D91E27 /* Images.xcassets */,
 				4A5B506319E1B87900D91E27 /* LaunchScreen.xib */,
 				4A5B505819E1B87900D91E27 /* Supporting Files */,
@@ -245,10 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				851C66EA19E1C387003496E7 /* ConfirmationViewController.swift in Sources */,
-				851C66EC19E1C633003496E7 /* WhenIsItViewController.swift in Sources */,
 				4A5B505D19E1B87900D91E27 /* ViewController.swift in Sources */,
-				851C66EE19E1C6E6003496E7 /* WhereIsItViewController.swift in Sources */,
 				4A5B505B19E1B87900D91E27 /* AppDelegate.swift in Sources */,
 				4A5B507B19E1C3D800D91E27 /* SettingsViewController.swift in Sources */,
 			);

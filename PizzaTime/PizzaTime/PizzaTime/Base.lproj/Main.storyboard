@@ -169,10 +169,10 @@
             </objects>
             <point key="canvasLocation" x="1391" y="-341"/>
         </scene>
-        <!--Confirmation View Controller-->
+        <!--View Controller-->
         <scene sceneID="n37-LY-PuR">
             <objects>
-                <viewController id="rJE-P5-4mu" customClass="ConfirmationViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rJE-P5-4mu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="abt-CJ-016">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,24 +181,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RUg-Zq-shD">
-                                <rect key="frame" x="32" y="460" width="123" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1yl-jA-qgs">
+                                <rect key="frame" x="32" y="456" width="122" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5PW-v3-nAP" kind="modal" identifier="whenSeg" id="5Ex-86-a2k"/>
+                                    <segue destination="5PW-v3-nAP" kind="modal" id="7bv-De-aTf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jaU-jM-dfe">
-                                <rect key="frame" x="154" y="455" width="132" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8e7-Sz-fsZ">
+                                <rect key="frame" x="157" y="456" width="127" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wbH-GV-ETm" kind="modal" id="J6f-oK-pev"/>
+                                    <segue destination="wbH-GV-ETm" kind="modal" id="JWY-41-xJT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -209,10 +209,10 @@
             </objects>
             <point key="canvasLocation" x="472" y="1005"/>
         </scene>
-        <!--When Is It View Controller-->
+        <!--View Controller-->
         <scene sceneID="My4-I3-oWK">
             <objects>
-                <viewController id="5PW-v3-nAP" customClass="WhenIsItViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5PW-v3-nAP" customClass="ViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JtK-KF-sUr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -221,16 +221,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GIf-sz-htX">
-                                <rect key="frame" x="274" y="14" width="46" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onTapX:" destination="5PW-v3-nAP" eventType="touchUpInside" id="4d8-D1-fGv"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -271,16 +261,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bqj-GH-tgA">
-                                <rect key="frame" x="273" y="20" width="36" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onTapX:" destination="wbH-GV-ETm" eventType="touchUpInside" id="A7q-wZ-78v"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
