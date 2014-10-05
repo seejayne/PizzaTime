@@ -13,6 +13,7 @@
 		4A5B506219E1B87900D91E27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B506119E1B87900D91E27 /* Images.xcassets */; };
 		4A5B506519E1B87900D91E27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B506319E1B87900D91E27 /* LaunchScreen.xib */; };
 		4A5B507119E1B87900D91E27 /* PizzaTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B507019E1B87900D91E27 /* PizzaTimeTests.swift */; };
+		4A5B507B19E1C3D800D91E27 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4A5B506A19E1B87900D91E27 /* PizzaTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5B506F19E1B87900D91E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5B507019E1B87900D91E27 /* PizzaTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTimeTests.swift; sourceTree = "<group>"; };
+		4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4A5B505A19E1B87900D91E27 /* AppDelegate.swift */,
 				4A5B505C19E1B87900D91E27 /* ViewController.swift */,
 				4A5B505E19E1B87900D91E27 /* Main.storyboard */,
+				4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */,
 				4A5B506119E1B87900D91E27 /* Images.xcassets */,
 				4A5B506319E1B87900D91E27 /* LaunchScreen.xib */,
 				4A5B505819E1B87900D91E27 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				4A5B505D19E1B87900D91E27 /* ViewController.swift in Sources */,
 				4A5B505B19E1B87900D91E27 /* AppDelegate.swift in Sources */,
+				4A5B507B19E1C3D800D91E27 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				4A5B507619E1B87900D91E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A5B507719E1B87900D91E27 /* Build configuration list for PBXNativeTarget "PizzaTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				4A5B507919E1B87900D91E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
