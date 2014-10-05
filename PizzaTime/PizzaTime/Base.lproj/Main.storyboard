@@ -66,6 +66,16 @@
                                     <segue destination="rJE-P5-4mu" kind="modal" modalTransitionStyle="crossDissolve" id="vbP-Ck-Mf2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QCY-TL-XvL">
+                                <rect key="frame" x="83" y="478" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Vtc-fU-VII" kind="modal" modalTransitionStyle="crossDissolve" id="TQR-wI-f36"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -107,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uq8-GW-ipX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1816" y="229"/>
+            <point key="canvasLocation" x="1833" y="117"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1hq-6V-Yq5">
@@ -349,6 +359,54 @@
             </objects>
             <point key="canvasLocation" x="1436" y="329"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="V48-fR-hre">
+            <objects>
+                <viewController id="Vtc-fU-VII" customClass="ViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kIq-xC-aRG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feelingLucky" id="r2Z-DN-wxc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VWO-RO-egb">
+                                <rect key="frame" x="96" y="478" width="141" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lTP-2O-1vn">
+                                <rect key="frame" x="86" y="110" width="161" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cbh-zR-8mI" kind="modal" modalTransitionStyle="crossDissolve" id="dsN-oj-VVC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0pP-8p-qRD">
+                                <rect key="frame" x="68" y="241" width="179" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rJE-P5-4mu" kind="modal" modalTransitionStyle="crossDissolve" id="Tce-1m-9Hx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2tI-eU-hYN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y9s-dF-oLL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="1005"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Settings" width="320" height="568"/>
@@ -357,6 +415,7 @@
         <image name="_0002_Layer-3" width="320" height="568"/>
         <image name="_0003_Layer-2" width="320" height="568"/>
         <image name="configurePizza" width="320" height="568"/>
+        <image name="feelingLucky" width="320" height="568"/>
         <image name="pizzatime_confirmation-01" width="320" height="568"/>
         <image name="pizzatime_confirmation-02" width="320" height="568"/>
         <image name="pizzatime_confirmation-03" width="320" height="568"/>
@@ -370,6 +429,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="tF7-he-p8u"/>
+        <segue reference="Tce-1m-9Hx"/>
+        <segue reference="dsN-oj-VVC"/>
     </inferredMetricsTieBreakers>
 </document>
