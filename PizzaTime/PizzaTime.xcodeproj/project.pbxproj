@@ -14,9 +14,20 @@
 		4A5B506519E1B87900D91E27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B506319E1B87900D91E27 /* LaunchScreen.xib */; };
 		4A5B507119E1B87900D91E27 /* PizzaTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B507019E1B87900D91E27 /* PizzaTimeTests.swift */; };
 		4A5B507B19E1C3D800D91E27 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */; };
+<<<<<<< HEAD
 		85960B2D19E1CB9600898EE9 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85960B2C19E1CB9600898EE9 /* ConfirmationViewController.swift */; };
 		85960B2F19E1CDA400898EE9 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85960B2E19E1CDA400898EE9 /* TimeViewController.swift */; };
 		85960B3119E1CE4800898EE9 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85960B3019E1CE4800898EE9 /* LocationViewController.swift */; };
+=======
+		4A5B508519E1CE9400D91E27 /* GothamRnd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B507D19E1CE9400D91E27 /* GothamRnd-Bold.otf */; };
+		4A5B508619E1CE9400D91E27 /* GothamRnd-BoldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B507E19E1CE9400D91E27 /* GothamRnd-BoldIta.otf */; };
+		4A5B508719E1CE9400D91E27 /* GothamRnd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B507F19E1CE9400D91E27 /* GothamRnd-Book.otf */; };
+		4A5B508819E1CE9400D91E27 /* GothamRnd-BookIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508019E1CE9400D91E27 /* GothamRnd-BookIta.otf */; };
+		4A5B508919E1CE9400D91E27 /* GothamRnd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508119E1CE9400D91E27 /* GothamRnd-Light.otf */; };
+		4A5B508A19E1CE9400D91E27 /* GothamRnd-LightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508219E1CE9400D91E27 /* GothamRnd-LightIta.otf */; };
+		4A5B508B19E1CE9400D91E27 /* GothamRnd-MedIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508319E1CE9400D91E27 /* GothamRnd-MedIta.otf */; };
+		4A5B508C19E1CE9400D91E27 /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508419E1CE9400D91E27 /* GothamRnd-Medium.otf */; };
+>>>>>>> FETCH_HEAD
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +52,20 @@
 		4A5B506F19E1B87900D91E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5B507019E1B87900D91E27 /* PizzaTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTimeTests.swift; sourceTree = "<group>"; };
 		4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		85960B2C19E1CB9600898EE9 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 		85960B2E19E1CDA400898EE9 /* TimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		85960B3019E1CE4800898EE9 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+=======
+		4A5B507D19E1CE9400D91E27 /* GothamRnd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Bold.otf"; sourceTree = "<group>"; };
+		4A5B507E19E1CE9400D91E27 /* GothamRnd-BoldIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-BoldIta.otf"; sourceTree = "<group>"; };
+		4A5B507F19E1CE9400D91E27 /* GothamRnd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Book.otf"; sourceTree = "<group>"; };
+		4A5B508019E1CE9400D91E27 /* GothamRnd-BookIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-BookIta.otf"; sourceTree = "<group>"; };
+		4A5B508119E1CE9400D91E27 /* GothamRnd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Light.otf"; sourceTree = "<group>"; };
+		4A5B508219E1CE9400D91E27 /* GothamRnd-LightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-LightIta.otf"; sourceTree = "<group>"; };
+		4A5B508319E1CE9400D91E27 /* GothamRnd-MedIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-MedIta.otf"; sourceTree = "<group>"; };
+		4A5B508419E1CE9400D91E27 /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +92,7 @@
 				4A5B505719E1B87900D91E27 /* PizzaTime */,
 				4A5B506D19E1B87900D91E27 /* PizzaTimeTests */,
 				4A5B505619E1B87900D91E27 /* Products */,
+				4A5B507C19E1CE9400D91E27 /* Gotham Rounded */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +145,21 @@
 				4A5B506F19E1B87900D91E27 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A5B507C19E1CE9400D91E27 /* Gotham Rounded */ = {
+			isa = PBXGroup;
+			children = (
+				4A5B507D19E1CE9400D91E27 /* GothamRnd-Bold.otf */,
+				4A5B507E19E1CE9400D91E27 /* GothamRnd-BoldIta.otf */,
+				4A5B507F19E1CE9400D91E27 /* GothamRnd-Book.otf */,
+				4A5B508019E1CE9400D91E27 /* GothamRnd-BookIta.otf */,
+				4A5B508119E1CE9400D91E27 /* GothamRnd-Light.otf */,
+				4A5B508219E1CE9400D91E27 /* GothamRnd-LightIta.otf */,
+				4A5B508319E1CE9400D91E27 /* GothamRnd-MedIta.otf */,
+				4A5B508419E1CE9400D91E27 /* GothamRnd-Medium.otf */,
+			);
+			path = "Gotham Rounded";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +242,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5B508C19E1CE9400D91E27 /* GothamRnd-Medium.otf in Resources */,
 				4A5B506019E1B87900D91E27 /* Main.storyboard in Resources */,
+				4A5B508619E1CE9400D91E27 /* GothamRnd-BoldIta.otf in Resources */,
 				4A5B506519E1B87900D91E27 /* LaunchScreen.xib in Resources */,
+				4A5B508919E1CE9400D91E27 /* GothamRnd-Light.otf in Resources */,
+				4A5B508719E1CE9400D91E27 /* GothamRnd-Book.otf in Resources */,
 				4A5B506219E1B87900D91E27 /* Images.xcassets in Resources */,
+				4A5B508B19E1CE9400D91E27 /* GothamRnd-MedIta.otf in Resources */,
+				4A5B508819E1CE9400D91E27 /* GothamRnd-BookIta.otf in Resources */,
+				4A5B508A19E1CE9400D91E27 /* GothamRnd-LightIta.otf in Resources */,
+				4A5B508519E1CE9400D91E27 /* GothamRnd-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
