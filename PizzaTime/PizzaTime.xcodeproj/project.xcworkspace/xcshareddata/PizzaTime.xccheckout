@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D3A78929-D9A4-4D22-BD3B-31E9328E678D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PizzaTime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E6D08F782BD1DBF1FCBB6E3C400FD9FF4CCBF974</key>
+		<string>https://github.com/allidryer/PizzaTime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PizzaTime/PizzaTime.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E6D08F782BD1DBF1FCBB6E3C400FD9FF4CCBF974</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/allidryer/PizzaTime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E6D08F782BD1DBF1FCBB6E3C400FD9FF4CCBF974</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6D08F782BD1DBF1FCBB6E3C400FD9FF4CCBF974</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Class%20Project</string>
+		</dict>
+	</array>
+</dict>
+</plist>
