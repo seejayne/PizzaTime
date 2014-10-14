@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3Ca-1a-ZP1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ea2-9S-YP9">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
@@ -59,7 +59,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3Ca-1a-ZP1" kind="modal" modalTransitionStyle="crossDissolve" id="vbP-Ck-Mf2"/>
+                                    <segue destination="rJE-P5-4mu" kind="modal" modalTransitionStyle="crossDissolve" id="vbP-Ck-Mf2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QCY-TL-XvL">
@@ -117,11 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uq8-GW-ipX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
-            <point key="canvasLocation" x="1886" y="315"/>
-=======
             <point key="canvasLocation" x="1833" y="117"/>
->>>>>>> FETCH_HEAD
         </scene>
         <!--View Controller-->
         <scene sceneID="1hq-6V-Yq5">
@@ -183,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="1391" y="-341"/>
         </scene>
-        <!--Confirmation View Controller-->
+        <!--View Controller-->
         <scene sceneID="n37-LY-PuR">
             <objects>
-                <viewController id="rJE-P5-4mu" customClass="ConfirmationViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rJE-P5-4mu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="abt-CJ-016">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -218,19 +214,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eR0-yc-9iQ"/>
-                    <connections>
-                        <segue destination="eG5-qT-Deo" kind="push" identifier="readySegue" id="KdB-lw-Xiy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhT-wb-XnH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="990" y="1045"/>
+            <point key="canvasLocation" x="472" y="1005"/>
         </scene>
-        <!--Time View Controller-->
+        <!--View Controller-->
         <scene sceneID="My4-I3-oWK">
             <objects>
-                <viewController id="5PW-v3-nAP" customClass="TimeViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5PW-v3-nAP" customClass="ViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JtK-KF-sUr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -239,23 +231,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qc5-en-mgR">
-                                <rect key="frame" x="274" y="20" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onTapX:" destination="5PW-v3-nAP" eventType="touchUpInside" id="9AL-wH-Mh2"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5n2-G9-w0P" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785" y="1761"/>
+            <point key="canvasLocation" x="241" y="1723"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VrB-HL-vjx">
@@ -272,16 +254,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="RD4-hD-pWN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mjf-sL-SIC" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1506" y="1045"/>
+            <point key="canvasLocation" x="1382" y="1005"/>
         </scene>
-        <!--Location View Controller-->
+        <!--View Controller-->
         <scene sceneID="rFu-kG-qUf">
             <objects>
-                <viewController id="wbH-GV-ETm" customClass="LocationViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wbH-GV-ETm" customClass="ViewController" customModule="PizzaTime" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H0j-tw-OO1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -290,23 +271,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p0b-cw-Eai">
-                                <rect key="frame" x="275" y="20" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onTapX:" destination="wbH-GV-ETm" eventType="touchUpInside" id="M0R-vI-LcL"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rf4-KS-xsQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1198" y="1761"/>
+            <point key="canvasLocation" x="680" y="1723"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="k3x-Wo-enJ">
@@ -376,7 +347,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3Ca-1a-ZP1" kind="modal" modalTransitionStyle="crossDissolve" id="tF7-he-p8u"/>
+                                    <segue destination="rJE-P5-4mu" kind="modal" modalTransitionStyle="crossDissolve" id="tF7-he-p8u"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -388,27 +359,6 @@
             </objects>
             <point key="canvasLocation" x="1436" y="329"/>
         </scene>
-<<<<<<< HEAD
-        <!--Navigation Controller-->
-        <scene sceneID="l1n-oz-0ot">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="3Ca-1a-ZP1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Aez-QE-WyY">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="rJE-P5-4mu" kind="relationship" relationship="rootViewController" id="JHh-qW-g05"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E0S-On-cr2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="458" y="1045"/>
-=======
         <!--View Controller-->
         <scene sceneID="V48-fR-hre">
             <objects>
@@ -456,7 +406,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9s-dF-oLL" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="930" y="1005"/>
->>>>>>> FETCH_HEAD
         </scene>
     </scenes>
     <resources>
@@ -481,9 +430,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="vbP-Ck-Mf2"/>
-<<<<<<< HEAD
-=======
         <segue reference="nP8-ya-qW1"/>
->>>>>>> FETCH_HEAD
     </inferredMetricsTieBreakers>
 </document>
