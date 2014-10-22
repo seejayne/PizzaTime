@@ -7,12 +7,14 @@
 //
 
 import UIKit
-import MapKit
+
 
 class ConfirmationViewController: UIViewController,UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning {
     
     var isPresenting: Bool = true
+    var timeRemaining: Int = 10
 
+    @IBOutlet weak var timeLabel: UILabel!
    
     @IBOutlet weak var pizzaWedge: UIImageView!
     @IBOutlet weak var cancelButton: UIButton!
@@ -29,17 +31,22 @@ class ConfirmationViewController: UIViewController,UIViewControllerTransitioning
         super.viewDidLoad()
         
         etaView.frame.origin.y = 568
-        pizzaWedge.center.y = 300
+        pizzaWedge.center.y = 200
         
         
-        delay(5, closure: { () -> () in
+        var timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
+        
+        delay(10, closure: { () -> () in
            
             self.performSegueWithIdentifier("orderReadySeg", sender: self)
         })
 
         
-        
-        
+    }
+    
+    func update() {
+        timeRemaining = timeRemaining - 1
+        timeLabel.text = String(timeRemaining)
     }
     
     
@@ -81,14 +88,10 @@ class ConfirmationViewController: UIViewController,UIViewControllerTransitioning
             UIView.animateWithDuration(0.8, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 3, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
                 
                 self.etaView.frame.origin.y = 343
-                self.pizzaWedge.center.y = 200
+                self.pizzaWedge.center.y = 175
                 self.orderButton.transform = CGAffineTransformScale(self.orderButton.transform, CGFloat(0.2), CGFloat(0.2))
-                
-                
-                //self.orderButton.frame.size = CGSize(width: 20, height: 20)
-                
-              //  self.orderButton.center = CGPoint (x: 160, y: 275)
-                
+                self.orderButton.center.y = 275
+        
             }, completion: nil)
             
             UIView.animateWithDuration(0.4, animations: { () -> Void in
@@ -99,11 +102,11 @@ class ConfirmationViewController: UIViewController,UIViewControllerTransitioning
             }
         } else {
             
-            UIView.animateWithDuration(0.4, delay: 0, options: nil, animations: { () -> Void in
+            UIView.animateWithDuration(0.8, delay: 0, options: nil, animations: { () -> Void in
                 fromViewController.view.alpha = 0
                 
                 self.etaView.frame.origin.y = 500
-                self.pizzaWedge.center.y = 275
+                self.pizzaWedge.center.y = 200
                 self.orderButton.transform = CGAffineTransformScale(self.orderButton.transform, CGFloat(3.25), CGFloat(3.25))
                 self.orderButton.center = CGPoint (x: 160, y: 275)
                 }) { (finished: Bool) -> Void in
@@ -139,8 +142,8 @@ class ConfirmationViewController: UIViewController,UIViewControllerTransitioning
     @IBAction func onTapDot(sender: UIButton) {
     
         UIView.animateWithDuration(0.6, delay: 0, options: UIViewAnimationOptions.Autoreverse | UIViewAnimationOptions.CurveEaseInOut | UIViewAnimationOptions.Repeat , animations: { () -> Void in
-            self.pizzaWedge.frame.origin.y = 175
-            }, completion: nil)
+            self.pizzaWedge.center.y = 200
+        }, completion: nil)
     
     }
 

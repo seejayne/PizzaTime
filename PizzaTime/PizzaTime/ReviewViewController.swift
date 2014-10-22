@@ -30,6 +30,13 @@ class ReviewViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onStarButton(sender: UIButton) {
+        
+        sender.selected = !sender.selected
+        
+    }
+    
+    
     @IBAction func onDismiss(sender: UIButton) {
         
         view.endEditing(true)

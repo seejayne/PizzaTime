@@ -8,9 +8,13 @@
             <string>GothamRounded-Bold</string>
             <string>GothamRounded-Bold</string>
             <string>GothamRounded-Bold</string>
-            <string>GothamRounded-Bold</string>
         </mutableArray>
         <mutableArray key="GothamRnd-Book.otf">
+            <string>GothamRounded-Book</string>
+            <string>GothamRounded-Book</string>
+            <string>GothamRounded-Book</string>
+            <string>GothamRounded-Book</string>
+            <string>GothamRounded-Book</string>
             <string>GothamRounded-Book</string>
         </mutableArray>
         <mutableArray key="GothamRnd-Light.otf">
@@ -18,8 +22,12 @@
             <string>GothamRounded-Light</string>
             <string>GothamRounded-Light</string>
             <string>GothamRounded-Light</string>
-            <string>GothamRounded-Light</string>
-            <string>GothamRounded-Light</string>
+        </mutableArray>
+        <mutableArray key="GothamRnd-Medium.otf">
+            <string>GothamRounded-Medium</string>
+            <string>GothamRounded-Medium</string>
+            <string>GothamRounded-Medium</string>
+            <string>GothamRounded-Medium</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -331,20 +339,12 @@
                                 <rect key="frame" x="0.0" y="61" width="320" height="356"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slice" id="3js-2A-cm9">
-                                <rect key="frame" x="95" y="183" width="128" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titleBar" id="Exe-Tk-Ebg">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings-1" id="Vm6-A5-ymB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_settings" id="Vm6-A5-ymB">
                                 <rect key="frame" x="284" y="22" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizzatime_text" id="Y98-Ru-Krv">
-                                <rect key="frame" x="111" y="25" width="99" height="13"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" id="0Mc-CH-2eA">
@@ -352,29 +352,43 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" id="opd-pR-Wbo">
-                                        <rect key="frame" x="0.0" y="-1" width="320" height="281"/>
+                                        <rect key="frame" x="0.0" y="-22" width="320" height="302"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="until Pizza Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0sH-q5-8j6">
-                                        <rect key="frame" x="57" y="90" width="207" height="21"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2wr-J8-Vhi">
+                                        <rect key="frame" x="51" y="125" width="219" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2wr-J8-Vhi">
-                                        <rect key="frame" x="110" y="125" width="101" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Cancel Order">
-                                            <color key="titleColor" red="0.9973498301" green="1" blue="0.50779185910000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="14"/>
+                                        <state key="normal" title="CANCEL ORDER" backgroundImage="buttonBackground">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="onCancel:" destination="JrO-CG-5QZ" eventType="touchUpInside" id="jPm-pG-L5V"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bft-y7-Skf">
-                                        <rect key="frame" x="57" y="47" width="207" height="48"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bft-y7-Skf">
+                                        <rect key="frame" x="91" y="21" width="74" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="until Pizza Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0sH-q5-8j6">
+                                        <rect key="frame" x="57" y="64" width="207" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(coming from Pie House)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8HH-NE-Rdk">
+                                        <rect key="frame" x="56" y="89" width="209" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9a5-eI-IHW">
+                                        <rect key="frame" x="153" y="21" width="74" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="36"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -383,8 +397,15 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONFIRMATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DYV-Qg-5xa">
+                                <rect key="frame" x="0.0" y="20" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ITC-nb-616">
-                                <rect key="frame" x="72" y="203" width="174" height="162"/>
+                                <rect key="frame" x="38" y="195" width="244" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="pie">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -393,6 +414,10 @@
                                     <action selector="onTapDot:" destination="JrO-CG-5QZ" eventType="touchUpInside" id="pdZ-On-tgg"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slice" id="3js-2A-cm9">
+                                <rect key="frame" x="72" y="163" width="175" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -401,6 +426,7 @@
                         <outlet property="etaView" destination="0Mc-CH-2eA" id="Uo7-AA-Zob"/>
                         <outlet property="orderButton" destination="ITC-nb-616" id="5fa-MF-0J8"/>
                         <outlet property="pizzaWedge" destination="3js-2A-cm9" id="XCC-Ex-48x"/>
+                        <outlet property="timeLabel" destination="bft-y7-Skf" id="XID-3N-ydJ"/>
                         <segue destination="uTK-AB-xU4" kind="modal" identifier="orderReadySeg" modalTransitionStyle="coverVertical" id="Iw2-gQ-fpK"/>
                     </connections>
                 </viewController>
@@ -424,18 +450,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings-1" id="QGx-0T-462">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_settings" id="QGx-0T-462">
                                 <rect key="frame" x="284" y="22" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizzatime_text" id="GWD-dL-rFr">
-                                <rect key="frame" x="111" y="25" width="99" height="13"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIZZA TIME!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pbV-p9-5fU">
                                 <rect key="frame" x="57" y="153" width="207" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -457,37 +479,44 @@
                                 <rect key="frame" x="91" y="91" width="138" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ay6-hX-Ade">
-                                <rect key="frame" x="89" y="440" width="143" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LDo-uO-L9S">
+                                <rect key="frame" x="51" y="479" width="219" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="15"/>
-                                <state key="normal" title="Leave a review">
-                                    <color key="titleColor" red="0.9973498301" green="1" blue="0.50779185910000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="14"/>
+                                <state key="normal" title="ORDER MORE PIZZA!" backgroundImage="buttonBackground">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="C9e-6l-JV2" kind="modal" id="xfG-Co-Ogz"/>
+                                    <segue destination="sh8-Bw-M9c" kind="modal" modalTransitionStyle="coverVertical" id="RBt-dd-Q6P"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LDo-uO-L9S">
-                                <rect key="frame" x="57" y="503" width="215" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ay6-hX-Ade">
+                                <rect key="frame" x="51" y="429" width="219" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="15"/>
-                                <state key="normal" title="Order ANOTHER PIZZA!!">
-                                    <color key="titleColor" red="0.9973498301" green="1" blue="0.50779185910000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="14"/>
+                                <state key="normal" title="LEAVE A REVIEW" backgroundImage="buttonBackground">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sh8-Bw-M9c" kind="modal" modalTransitionStyle="crossDissolve" id="RBt-dd-Q6P"/>
+                                    <segue destination="C9e-6l-JV2" kind="modal" modalTransitionStyle="crossDissolve" id="xfG-Co-Ogz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IT'S HERE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rji-x9-SXG">
+                                <rect key="frame" x="0.0" y="20" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfH-z7-zpG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1995" y="1705"/>
+            <point key="canvasLocation" x="2013" y="1705"/>
         </scene>
         <!--Review View Controller-->
         <scene sceneID="5yJ-aG-jsd">
@@ -497,62 +526,112 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" id="i3p-bJ-nT8">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="573"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blurryReview" id="JMP-0T-Nyc">
+                                <rect key="frame" x="0.0" y="-5" width="320" height="578"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <view contentMode="scaleToFill" id="tz4-ah-KNT">
                                 <rect key="frame" x="7" y="144" width="306" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leave a review" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WvE-Oj-LM0">
-                                        <rect key="frame" x="87" y="18" width="133" height="21"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="overlay" id="t6S-zz-tBz">
+                                        <rect key="frame" x="0.0" y="0.0" width="305" height="264"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="itM-EX-MIC">
-                                        <rect key="frame" x="46" y="221" width="63" height="30"/>
+                                        <rect key="frame" x="60" y="215" width="65" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="15"/>
-                                        <state key="normal" title="Cancel">
-                                            <color key="titleColor" red="0.87058830259999997" green="0.24313727020000001" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="14"/>
+                                        <state key="normal" title="CANCEL">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="onDismiss:" destination="C9e-6l-JV2" eventType="touchUpInside" id="vr5-Mn-eU5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DJq-iS-SvN">
-                                        <rect key="frame" x="202" y="221" width="60" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" placeholder="Tell us what you think..." minimumFontSize="17" id="wYK-M6-1hN">
+                                        <rect key="frame" x="32" y="56" width="240" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="15"/>
-                                        <state key="normal" title="Submit">
-                                            <color key="titleColor" red="0.87058830259999997" green="0.24313727020000001" blue="0.33725491169999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2yf-SF-enE">
+                                        <rect key="frame" x="61" y="185" width="29" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="star_deselected">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="star_selected"/>
+                                        <connections>
+                                            <action selector="onStarButton:" destination="C9e-6l-JV2" eventType="touchUpInside" id="9vg-fR-xA7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="V5K-aD-SZC">
+                                        <rect key="frame" x="98" y="185" width="29" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="star_deselected">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="star_selected"/>
+                                        <connections>
+                                            <action selector="onStarButton:" destination="C9e-6l-JV2" eventType="touchUpInside" id="56S-dO-EjW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KzZ-Og-v0x">
+                                        <rect key="frame" x="137" y="185" width="29" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="star_deselected">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="star_selected"/>
+                                        <connections>
+                                            <action selector="onStarButton:" destination="C9e-6l-JV2" eventType="touchUpInside" id="Qh0-0K-Q8V"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gsl-hL-rBA">
+                                        <rect key="frame" x="174" y="185" width="29" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="star_deselected">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="star_selected"/>
+                                        <connections>
+                                            <action selector="onStarButton:" destination="C9e-6l-JV2" eventType="touchUpInside" id="aQE-jw-xRG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7G0-6x-uNn">
+                                        <rect key="frame" x="216" y="185" width="29" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="star_deselected">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="star_selected"/>
+                                        <connections>
+                                            <action selector="onStarButton:" destination="C9e-6l-JV2" eventType="touchUpInside" id="3gO-9L-qpx"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEAVE A REVIEW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WvE-Oj-LM0">
+                                        <rect key="frame" x="77" y="15" width="153" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Book" family="Gotham Rounded" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DJq-iS-SvN">
+                                        <rect key="frame" x="185" y="215" width="60" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Medium" family="Gotham Rounded" pointSize="14"/>
+                                        <state key="normal" title="SUBMIT">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="onDismiss:" destination="C9e-6l-JV2" eventType="touchUpInside" id="Eml-dM-Emv"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" minimumFontSize="17" id="wYK-M6-1hN">
-                                        <rect key="frame" x="25" y="88" width="266" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[stars go here]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xub-K7-mwe">
-                                        <rect key="frame" x="92" y="175" width="133" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="GothamRounded-Light" family="Gotham Rounded" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -564,7 +643,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MFS-Gr-6XF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2423" y="1705"/>
+            <point key="canvasLocation" x="2457" y="1705"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="k3x-Wo-enJ">
@@ -714,20 +793,23 @@
                                 <rect key="frame" x="284" y="22" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizzatime_text" id="8bo-8E-Csx">
-                                <rect key="frame" x="111" y="25" width="99" height="13"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ilz-IA-SZH">
-                                <rect key="frame" x="78" y="200" width="165" height="165"/>
+                                <rect key="frame" x="39" y="160" width="244" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="PIZZA">
+                                <state key="normal" image="everything">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="JrO-CG-5QZ" kind="modal" identifier="orderSegue" id="1zs-Rx-MgX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONFIRMATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ATl-MZ-KQU">
+                                <rect key="frame" x="0.0" y="22" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -741,24 +823,29 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PIZZA" width="488" height="488"/>
         <image name="Settings" width="320" height="568"/>
         <image name="_0000_Layer-5" width="320" height="568"/>
         <image name="_0001_Layer-4" width="320" height="568"/>
         <image name="_0002_Layer-3" width="320" height="568"/>
         <image name="_0003_Layer-2" width="320" height="568"/>
         <image name="bg" width="320" height="568"/>
+        <image name="blurryReview" width="644" height="1136"/>
+        <image name="buttonBackground" width="219" height="42"/>
         <image name="configurePizza" width="320" height="568"/>
+        <image name="everything" width="244" height="244"/>
         <image name="feelingLucky" width="320" height="568"/>
+        <image name="icn_settings" width="22" height="22"/>
         <image name="map" width="708" height="714"/>
-        <image name="pie" width="487" height="419"/>
+        <image name="overlay" width="305" height="264"/>
+        <image name="pie" width="244" height="210"/>
         <image name="pizzatime_confirmation-01" width="320" height="568"/>
         <image name="pizzatime_confirmation-02" width="320" height="568"/>
         <image name="pizzatime_confirmation-03" width="320" height="568"/>
         <image name="pizzatime_confirmation-04" width="320" height="568"/>
-        <image name="pizzatime_text" width="99" height="13"/>
         <image name="settings-1" width="20" height="20"/>
-        <image name="slice" width="353" height="244"/>
+        <image name="slice" width="175" height="122"/>
+        <image name="star_deselected" width="24" height="23"/>
+        <image name="star_selected" width="32" height="31"/>
         <image name="tapToOrder" width="320" height="568"/>
         <image name="titleBar" width="640" height="134"/>
         <image name="topPizza" width="320" height="568"/>
