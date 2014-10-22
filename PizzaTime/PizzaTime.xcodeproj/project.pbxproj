@@ -22,6 +22,9 @@
 		4A5B508A19E1CE9400D91E27 /* GothamRnd-LightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508219E1CE9400D91E27 /* GothamRnd-LightIta.otf */; };
 		4A5B508B19E1CE9400D91E27 /* GothamRnd-MedIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508319E1CE9400D91E27 /* GothamRnd-MedIta.otf */; };
 		4A5B508C19E1CE9400D91E27 /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B508419E1CE9400D91E27 /* GothamRnd-Medium.otf */; };
+		85960BD719F3087D00898EE9 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85960BD619F3087D00898EE9 /* ConfirmationViewController.swift */; };
+		85D7706319F72CA6006B15D4 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7706219F72CA6006B15D4 /* ReviewViewController.swift */; };
+		85E57AAB19F30DD00021A811 /* TapOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E57AAA19F30DD00021A811 /* TapOrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		4A5B508219E1CE9400D91E27 /* GothamRnd-LightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-LightIta.otf"; sourceTree = "<group>"; };
 		4A5B508319E1CE9400D91E27 /* GothamRnd-MedIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-MedIta.otf"; sourceTree = "<group>"; };
 		4A5B508419E1CE9400D91E27 /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
+		85960BD619F3087D00898EE9 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		85D7706219F72CA6006B15D4 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		85E57AAA19F30DD00021A811 /* TapOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapOrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 				4A5B505A19E1B87900D91E27 /* AppDelegate.swift */,
 				4A5B505C19E1B87900D91E27 /* ViewController.swift */,
 				4A5B505E19E1B87900D91E27 /* Main.storyboard */,
+				85D7706219F72CA6006B15D4 /* ReviewViewController.swift */,
+				85E57AAA19F30DD00021A811 /* TapOrderViewController.swift */,
+				85960BD619F3087D00898EE9 /* ConfirmationViewController.swift */,
 				4A5B507A19E1C3D800D91E27 /* SettingsViewController.swift */,
 				4A5B506119E1B87900D91E27 /* Images.xcassets */,
 				4A5B506319E1B87900D91E27 /* LaunchScreen.xib */,
@@ -256,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5B505D19E1B87900D91E27 /* ViewController.swift in Sources */,
+				85E57AAB19F30DD00021A811 /* TapOrderViewController.swift in Sources */,
+				85D7706319F72CA6006B15D4 /* ReviewViewController.swift in Sources */,
 				4A5B505B19E1B87900D91E27 /* AppDelegate.swift in Sources */,
+				85960BD719F3087D00898EE9 /* ConfirmationViewController.swift in Sources */,
 				4A5B507B19E1C3D800D91E27 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
